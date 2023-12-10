@@ -1,8 +1,10 @@
+# App Path
 APPLICATIONS_PATH = [
+    # 'applications/provenance/system_settings/principal_permissions',
+    'applications/provenance/system_settings',
     'applications/learning/natural_science/biology',
     'applications/learning/natural_science/astronomy',
     'applications/learning/the_humanities/humanities_arts',
-    'applications/provenance/system_settings',
     'applications/provenance/system_function',
     'applications/transaction/economy_industry/organizations',
     'applications/transaction/economy_industry/products',

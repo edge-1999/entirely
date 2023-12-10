@@ -66,7 +66,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",  # 跨域请求
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
-    "corsheaders.middleware.CorsPostCsrfMiddleware",  # 跨域请求
+    # "corsheaders.middleware.CorsPostCsrfMiddleware",  # 跨域请求
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",

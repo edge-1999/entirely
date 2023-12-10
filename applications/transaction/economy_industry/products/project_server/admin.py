@@ -18,7 +18,7 @@ class TransactionEconomyIndustryProductsProjectServerAdmin(admin.ModelAdmin):
     resource_class = AdminProxyResource
     actions = ('custom_btn',)
     list_display = (
-        'NAME', 'INSTANCE_ID', 'PUBLIC_NETWORK', 'SYSTEM_CATEGORY', 'MIRROR_CATEGORY', 'INSIDE_OUTSIDE_CODE')
+        'NAME', 'PUBLIC_NETWORK', 'SYSTEM_CATEGORY', 'INSIDE_OUTSIDE_CODE')
     search_fields = ('NAME', 'INSTANCE_ID', 'PUBLIC_NETWORK', 'REGION',)
     list_filter = (
         TransactionEconomyIndustryProductsProjectServerAdminSystemCategory,
